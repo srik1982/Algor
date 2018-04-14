@@ -17,7 +17,6 @@ public class DepthOfNaryTree {
 	 * @return
 	 */
 	public static void main(String[] args) {
-		NaryTree tree = new NaryTree();
 		int [] arr = new int[]{-1,0,1,6,6,0,0,2,7};
 		int [] depthArr = new int[]{-1,-1,-1,-1,-1,-1,-1,-1,-1};
 		findDepth(arr,-1,depthArr);
