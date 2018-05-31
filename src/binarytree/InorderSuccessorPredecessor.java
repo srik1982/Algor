@@ -2,6 +2,9 @@ package binarytree;
 
 import java.util.Stack;
 
+import binarytree.bst.BST;
+import common.Node;
+
 public class InorderSuccessorPredecessor {
 
 	/**

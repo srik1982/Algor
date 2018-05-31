@@ -3,6 +3,8 @@ package binarytree;
 import java.util.LinkedList;
 import java.util.Stack;
 
+import common.Node;
+
 public class AllPathsToLeaves {
 
 	public static void main(String[] args) {		

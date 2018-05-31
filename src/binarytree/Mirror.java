@@ -2,6 +2,8 @@ package binarytree;
 
 import java.util.Stack;
 
+import common.Node;
+
 public class Mirror {
 
 	public static void main(String[] args) {

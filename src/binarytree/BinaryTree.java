@@ -3,6 +3,8 @@ package binarytree;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import common.Node;
+
 public class BinaryTree {
 	
 	public static Node createBinaryTree(){
@@ -52,7 +54,7 @@ public class BinaryTree {
 		return root;
 	}
 	
-	 void printInorder(Node node)
+	public static void printInorder(Node node)
 	    {
 	        if (node == null)
 	            return;

@@ -1,5 +1,7 @@
 package binarytree;
 
+import common.Node;
+
 public class TopView {
 
 	public static void main(String[] args) {

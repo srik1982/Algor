@@ -2,6 +2,8 @@ package binarytree;
 
 import java.util.Stack;
 
+import common.Node;
+
 public class LCA {
 
 	public static void main(String[] args) {

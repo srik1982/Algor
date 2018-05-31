@@ -1,6 +1,8 @@
 package binarytree;
 import java.util.Stack;
 
+import common.Node;
+
 
 public class PostOrderNonRecursive {
 

@@ -1,6 +1,8 @@
-package binarytree;
+package binarytree.bst;
 
 import java.util.Stack;
+
+import common.Node;
 
 public class BST2DLL {
 

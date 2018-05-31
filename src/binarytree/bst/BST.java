@@ -1,4 +1,6 @@
-package binarytree;
+package binarytree.bst;
+
+import common.Node;
 
 public class BST {
 
@@ -26,66 +28,66 @@ public class BST {
 	 
 	public static Node createBST(){
 		Node root = new Node();
-		root.data = 4;
+		root.data = 8;
 		
 		Node temp = new Node();
-		temp.data = 2;
+		temp.data = 4;
 		root.left = temp;
 		
 		temp = new Node();
-		temp.data = 6;
+		temp.data = 12;
 		root.right = temp;
 		
 		temp = new Node();
-		temp.data = 1;
+		temp.data = 2;
 		root.left.left=temp;
 		
 		temp = new Node();
-		temp.data = 3;
+		temp.data = 6;
 		root.left.right=temp;
 		
 		temp = new Node();
-		temp.data = 5;
+		temp.data = 10;
 		root.right.left=temp;
 		
 		temp = new Node();
-		temp.data = 7;
+		temp.data = 14;
 		root.right.right=temp;
 		
-		Node newRoot = new Node();
-		newRoot.data = 8;
-		newRoot.left = root;
-		
-		Node n = new Node();
-		n.data = 16;
-		newRoot.right = n;
-		
-		n = new Node();
-		n.data = 12;
-		newRoot.right.left = n;
-		
-		n = new Node();
-		n.data = 20;
-		newRoot.right.right = n;
-		
-		n = new Node();
-		n.data = 11;
-		newRoot.right.left.left = n;
-		
-		n = new Node();
-		n.data = 14;
-		newRoot.right.left.right = n;
-		
-		n = new Node();
-		n.data = 18;
-		newRoot.right.right.left = n;
-		
-		n = new Node();
-		n.data = 22;
-		newRoot.right.right.right = n;
-		
-		newRoot.left = root;
-		root = newRoot;
+//		Node newRoot = new Node();
+//		newRoot.data = 8;
+//		newRoot.left = root;
+//		
+//		Node n = new Node();
+//		n.data = 16;
+//		newRoot.right = n;
+//		
+//		n = new Node();
+//		n.data = 12;
+//		newRoot.right.left = n;
+//		
+//		n = new Node();
+//		n.data = 20;
+//		newRoot.right.right = n;
+//		
+//		n = new Node();
+//		n.data = 11;
+//		newRoot.right.left.left = n;
+//		
+//		n = new Node();
+//		n.data = 14;
+//		newRoot.right.left.right = n;
+//		
+//		n = new Node();
+//		n.data = 18;
+//		newRoot.right.right.left = n;
+//		
+//		n = new Node();
+//		n.data = 22;
+//		newRoot.right.right.right = n;
+//		
+//		newRoot.left = root;
+//		root = newRoot;
 		return root;
 	}
 	

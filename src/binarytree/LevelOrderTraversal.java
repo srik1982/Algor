@@ -3,6 +3,8 @@ package binarytree;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import common.Node;
+
 public class LevelOrderTraversal {
 
 	public static void main(String[] args) {

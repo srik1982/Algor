@@ -1,5 +1,9 @@
 package binarytree.bst;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 import binarytree.BinaryTree;
 import common.Node;
 
@@ -35,4 +39,12 @@ public class Floor {
 		System.out.println("\n"+floor);
 	}
 
+	private static <T extends LinkedList<String>> T[] getSomething(){
+		List<LinkedList<String>> listOfList = new ArrayList<LinkedList<String>>();
+		
+		T [] array = null;
+		array = listOfList.toArray(array);
+		
+		return array;
+	}
 }

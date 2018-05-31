@@ -37,6 +37,10 @@ public class ClosestToGivenNumber {
 		return root;
 	}
 	
+	/**
+	 * better than inorder which gives O(n). this is 2 * log(n)
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Node root = createBST();
 		BinaryTree.printInorder(root);
